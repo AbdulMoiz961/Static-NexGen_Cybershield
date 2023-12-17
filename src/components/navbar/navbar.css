@@ -1,0 +1,146 @@
+.ngen__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.ngen__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ngen__navbar-links_logo {
+    margin-right: 5rem;
+}
+
+.ngen__navbar-links_logo img {
+    width: 106.24px;
+    height: 31.2px;
+}
+
+.ngen__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ngen__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ngen__navbar-links_container p,
+.ngen__navbar-sign p,
+.ngen__navbar-menu_container p {
+    color: #f3f3f3;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.ngen__navbar-sign button,
+.ngen__navbar-menu_container button {
+    color: #f3f3f3;
+    padding: 0.5rem 1rem;
+    background: #54017a;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.ngen__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.ngen__navbar-menu svg {
+    cursor: pointer;
+}
+
+.ngen__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: end;
+    background: #001e47;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ngen__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.ngen__navbar-menu_container-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ngen__navbar-menu_container-links-sign {
+    display: none;
+}
+
+.ngen__navbar-menu_container-links-sign p {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px) {
+    .ngen__navbar-links_container {
+        display: none;
+    }
+
+    .ngen__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ngen__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ngen__navbar {
+        padding: 2rem;
+    }
+
+    .ngen__navbar-sign {
+        display: none;
+    }
+
+    .ngen__navbar-menu_container {
+        top: 20px;
+    }
+
+    .ngen__navbar-menu_container-links-sign {
+        margin-top: 1rem;
+        padding: 0.5rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
