@@ -1,6 +1,9 @@
 # NexGen CyberShield
 Welcome to the NexGen CyberShield Showcase, a static website project developed with React.js to highlight my front-end development skills.
 
+## Live Demo
+Explore the live demo [here](https://nexgen-cybershield.surge.sh/).
+
 ## Technologies Used
 - React.js
 - HTML5
