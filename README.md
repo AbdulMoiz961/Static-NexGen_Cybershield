@@ -4,7 +4,7 @@ Welcome to the NexGen CyberShield Showcase, a static website project developed w
 ## Live Demo
 ![NexGen CyberShield Showcase Screenshot](public/ScreenShot/NexGenCybershield_ss.png)
 
-Explore the live demo [here](https://nexgen-cybershield.surge.sh/ "Live Demo" target="_blank").
+Explore the live demo [here](https://nexgen-cybershield.surge.sh/ target="_blank").
 
 ## Technologies Used
 - React.js
